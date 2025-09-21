@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    /* background: rgb(230, 47, 47); */
+    color: white;
+    font-family:Hind ;
+}
+.mybg{
+    
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.btn button{
+    border: none;
+    padding: 7px;
+    background: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    word-spacing: 20px;
+}
+.btn ol{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -10%;
+    
+}
+.btn li{
+    
+    width: 200px;
+    border-bottom: 1px white solid;
+    padding: 7px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 12px;
+}
+
+.btn img{
+    width: 30px;
+
+}
+.center h4{
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+.right button{
+    border: none;
+    padding: 7px;
+    color: white;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+    word-spacing: 20px;
+    cursor: pointer;
+}
+
+.right input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}

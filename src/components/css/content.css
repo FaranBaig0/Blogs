@@ -1,0 +1,45 @@
+.content{
+    text-align: center;
+    margin: auto;
+    margin-top: 6%;
+    width: 70%;
+    margin-bottom: 6%;
+/* 
+        background-image: url('./src/images/macbook.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh; */
+}
+.content hr{
+    width: 15%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.content p,h1{
+    margin-top: 5%;
+     text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.content p{
+    font-size: 15px;
+}
+.content button{
+    text-align: center;
+    margin-top: 5%;
+    padding: 20px;
+    width: 24%;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+.content button:hover{
+    background-color: #f24137;
+    color: wheat;
+    font-weight: 800;
+    text-align: center;
+}
